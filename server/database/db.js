@@ -8,8 +8,7 @@ const PASSWORD = process.env.DB_PASSWORD;
 
 const Connection = () => {
 
-    // const MONGODB_URI = `mongodb+srv://${USERNAME}:${PASSWORD}@chatapplication.z1kdrew.mongodb.net/?retryWrites=true&w=majority&appName=ChatApplication`;
-    const MONGODB_URI = `mongodb+srv://chat-api:chat-api@chatapplication.z1kdrew.mongodb.net/`;
+    const MONGODB_URI = `mongodb+srv://${USERNAME}:${PASSWORD}@chatapplication.z1kdrew.mongodb.net/?retryWrites=true&w=majority&appName=ChatApplication`;
 
     mongoose.connect(MONGODB_URI, { useNewUrlParser: true });
 

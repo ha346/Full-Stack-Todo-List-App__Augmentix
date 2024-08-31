@@ -14,7 +14,7 @@ Features:
 ### Cloning the repository
 
 ```shell
-git clone  https://github.com/ha346/FullStackTodoList.git
+git clone https://github.com/ha346/Full-Stack-Todo-List-App__Augmentix.git
 ```
 
 ### Install packages
